@@ -1,0 +1,142 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 3</title>
+</head>
+<body>
+    <MARQUEE>
+        <img src="hh.jpg">
+    </MARQUEE>
+    <h1>Bài 3</h1>
+    <!--Danh sách (List)-->
+    <!--Có thứ tự ol, li-->
+    <p>Danh sách công việc vào buổi sáng</p>
+    <ol>
+        <li>Thức dậy</li>
+        <li>Vệ sinh cá nhân</li>
+        <li>Ăn sáng</li>
+        <li>Đi học</li>
+        <li>Giải lao</li>
+    </ol>
+
+    <!--Không có thứ tự ul, li-->
+    <p>Các ngôn ngữ lập trình web</p>
+    <ul>
+        <li>HTML</li>
+        <li>CSS</li>
+        <li>JavaScript</li>
+        <li>PHP</li>
+        <li>Python</li>
+    </ul>
+
+    <h1><font color="red">Form</font></h1>
+    <form>
+        <div>
+            <b>Họ và tên</b>
+            <input type="text" name="hoten" placeholder="Nhập họ và tên"> 
+        </div>
+        <br>
+         <div>
+            <b>Năm</b>
+            <input type="text" name="nam" value="2025" readonly>
+        </div>
+        <br>
+         <div>
+            <b>Giới thiệu chi tiết về bản thân</b> <br>
+            <textarea name="gioithieu" placeholder="Giới thiệu về bản thân..."></textarea>
+        </div>
+        <br>
+         <div>
+            <b>Email</b>
+            <input type="email" name="email" placeholder="Dạng @gmail.com">
+        </div>
+        <br>
+        <div>
+            <b>Số điện thoại</b> <br>
+            <input type="tel" name="sodienthoai" placeholder="Dạng số Việt Nam" required pattern="([0]{1})([0,3,9]{1})([0-9]{8})"> 
+        </div>
+        <br>
+        <div>
+            <b>Giới tính</b> <br>
+            <input type="radio" name="gioitinh" value="Nam" checked> Nam <br>
+            <input type="radio" name="gioitinh" value="Nữ"> Nữ <br>
+            <input type="radio" name="gioitinh" value="khongxacdinh"> Không xác định <br>
+        </div>
+        <br>
+        <div>
+            <b>Sở thích</b> <br>
+            Game: <input type="checkbox" name="game" value="game"> <br>
+            Music: <input type="checkbox" name="music" value="music"> <br>
+            Sport: <input type="checkbox" name="sport" value="sport"> <br>
+        </div>
+        <br>
+        <div>
+            <b>Trình duyệt ưa thích</b> <br>
+            <input list="browser">
+            <datalist id="browser">
+                <option value="Chrome">
+                <option value="Firefox">
+                <option value="Safari">
+                <option value="Edge">
+                <option value="Opera">
+                <option value="Brave">
+            </datalist>
+            <br>
+            <select id="browser">
+                <option value="Chrome">Chrome</option>
+                <option value="Firefox">Firefox</option>
+                <option value="Safari">Safari</option>
+                <option value="Edge">Edge</option>
+                <option value="Opera">Opera</option>
+                <option value="Brave">Brave</option>
+            </select>
+        </div>
+        <br>
+        <div>
+            0<input type="range" value="50" min="0" max="100" step="1">100
+        </div>
+        <br>
+        <div>
+            <b>Tuổi</b> <br>
+            <input type="number" name="tuoi">
+        </div>
+        <br>
+        <div>
+            <b>Ngày, tháng, năm sinh</b> <br>
+            <input type="date" name="ngaythangnamsinh">
+        </div>
+        <br>
+        <div>
+            <b>Màu sắc yêu thích</b> <br>
+            <input type="color" name="mausacyeuthich">
+        </div>
+        <br>
+        <div>
+            <b>Chọn ảnh đại diện</b> <br>
+            <input type="file" name="chonanhdaidien">
+        </div>
+        <br>
+        <div>
+            <b>Mật khẩu</b> <br>
+            <input type="password" name="matkhau">
+        </div>
+        <br>
+        <div>
+            <input type="reset" value="Tải lại trang">
+        </div>
+        <br>
+        <div>
+            <input type="submit">
+        </div>
+    </form>
+    <iframe width="560" height="315" src="https://www.youtube.com/embed/ESOjt2_yJrU?si=UndA8qNbndrMrB6y" ></iframe>
+    <video width="320" height="240" controls>
+        <source src="video.mp4" type="video/mp4">
+    </video>
+    <audio controls>
+        <source src="audio.mp3" type="audio/mpeg">
+    </audio>
+</body>
+</html>
