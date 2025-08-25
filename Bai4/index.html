@@ -1,0 +1,37 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Bai 4</title>
+    <style>
+        h2 {
+            color: red;
+        }
+        p {
+            color: green;
+            background-color: yellow;
+        }
+        h2:hover {
+            color: blue;
+            background-color: orange;
+        }
+    </style>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <h1 style="color:blue; background-color:orange">Inline Style</h1>
+    <!--Inline style được ưu tiên lớn nhất-->
+    <!--Khi đã thêm style trên head thì bất cứ chỗ nào có thẻ h2 đều sẽ có các style đã thêm-->
+    <h2 class="bg">Internal Style</h2>
+    <h3>External Style</h3>
+    <h3 id="title">Bai css</h3>
+    <!--External Style được ưu tiên hơn Internal Style-->
+    <p>Ví dụ về độ ưu tiên</p>
+    <a href="https://daotaodaihoc.humg.edu.vn/#/home">Trang đào tạo</a>
+
+    <div class="box1">Block 1</div>
+    <div class="box2">Block 2</div>
+    <div class="box3">Block 3</div>
+</body>
+</html>
