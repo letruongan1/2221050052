@@ -1,0 +1,38 @@
+h3 {
+    color: orange;
+    background-color: black;
+}
+
+#title {
+    color: purple;
+    background-color: pink;
+}
+
+.bg {
+    background-color: yellow;
+}
+
+p {
+    color: red;
+    background-color: green;
+}
+
+.box1 {
+    background-color: red;
+}
+
+.box2 {
+    background-color: blue;
+    /*truyền 1 giá trị thì cách xung quanh 100px*/
+    /*truyền 2 giá trị thì cách trên dưới 100px, trái phải 50px*/
+    /*truyền 3 giá trị thì cách trên 50px, trái phải 50px, dưới 100px*/
+    /*truyền 4 giá trị thì cách trên 30px, phải 50px, dưới 50px, trái 100px*/
+    /*margin: 30px 50px 50px 100px;*/
+    width: 50%;
+    /*margin auto căn khối ra giữa màn hình*/
+    margin: 50px auto
+}
+
+.box3 {
+    background-color: green;
+}
